@@ -1,0 +1,68 @@
+
+
+body{
+    background-color: #EBEBEB;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10vh;
+}
+
+main{
+    margin: auto;
+    background-color: white;
+    width: 556px;
+    height: 373px;
+    padding: 50px;
+    padding-top: 23px;
+    padding-bottom: 60px;
+}
+
+main h1 {
+    position: relative;
+    left: 76%;
+    color: #568A2F;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+main form #email{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 1.5em;
+    width: 95%;
+    height: 28px;
+    padding-left: 9px;
+    font-size: 1em;
+}
+
+main form #senha{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 1.5em;
+    width: 95%;
+    height: 28px;
+    padding-left: 9px;
+    font-size: 1em;
+}
+
+.btnesqueceu {
+    text-align: center;
+}
+
+a#btnesqueceu:visited, abtn#esqueceu:link{
+    color: #B3B3B3;
+    text-decoration: none;
+}
+
+a#btnesqueceu:hover{
+    text-decoration: underline;
+}
+
+a.link:visited, a.link:link {
+    color: #9FCD7A;
+    text-decoration: none;
+}
+
+a.link:hover{
+    text-decoration: underline;
+}
