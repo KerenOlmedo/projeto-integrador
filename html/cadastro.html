@@ -6,51 +6,63 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Negócio Local</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/cadastro.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
-    <h1>Cadastro de Pessoa Fisica</h1>
-    <figure>
-        <img src="" alt="Minha Figura">
-        <figcaption>Informações da Figura</figcaption>
-    </figure>
 
-    <form method="">
-        <label for="nome">Nome</label>
-        <br><br>
-        <input type="text" id="nome" />
-        <br><br>
-        <label for="sobrenome">Sobrenome</label>
-        <br><br>
-        <input type="text" id="sobrenome" />
-        <br><br>
-        <label for="email">E-mail</label>
-        <br><br>
-        <input type="email" id="email" />
-        <br><br>
-        <label for="endereço">Endereço</label>
-        <br><br>
-        <input type="text" id="endereço" />
-        <br><br>
-        <label for="telefone">Telefone</label>
-        <br><br>
-        <input type="tel" id="telefone" />
-        <br><br>
-        <label for="senha">Senha</label>
-        <br><br>
-        <input type="password" id="senha" name="password" minlength="8" required />
-        <br><br>
-        <label for="confirmar senha">Confirmar senha</label>
-        <br><br>
-        <input type="password" id="confirmar senha" name="password" minlength="8" required />
-        <br><br>
-        <label for="dia">Data de Nascimento:</label>
-        <br><br>
-        <input type="date" id="dia" name="dia" />
-        <br><br>
-        <button name="botao">Criar Cadastro</button>
+    <header>
+        <h1>Negócio Local</h1> <img id="logo" src="../imagens/logo.png"/>
+    </header>
+
+    <main>
+
+    <div class="flex-subtitulo">
+        <h2>Cadastro de Pessoa Fisica</h2>
+        <a href="http://">Clique aqui para mudar para cadastro de empresa</a>
+    </div>
+
+    <div class="flex-formulario">
+        <form method="">
+            <div id="conteiner-nome-sobrenome">
+                <div>
+                    <label for="nome">Nome*</label><br>
+                    <input type="text" id="nome" required/><br>
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome*</label><br>
+                    <input type="text" id="sobrenome" required/><br>
+                </div>
+            </div>
+            <label for="email">E-mail*</label>
+            <input type="email" id="email" required/>
+
+            <label for="endereço">Endereço</label>
+            <input type="text" id="endereço" />
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" />
+
+            <label for="senha">Senha*</label>
+            <input type="password" id="senha" name="password" minlength="8" required />
+
+            <label for="confirmar senha">Confirmar senha*</label>
+            <input type="password" id="confirmar senha" name="password" minlength="8" required />
+            
+            <label for="dia">Data de Nascimento</label>
+            <input type="date" id="dia" name="dia" />
+            
+            <input type="submit" value="Criar cadastro">
+    </div>
+
+    <div class="flex-fotoperfil">
+        <img src="../imagens/adicionarfotoperfil.png" width="200px"/>
+        <p><a href="http://">Carregar foto de perfil</a></p>
+    </div>
+
+    
+    </main>
 
     </form>
 
