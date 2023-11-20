@@ -8,23 +8,31 @@ function cadastrar() {
   const confirmarSenha = document.getElementById('confirmarsenha').value;
   const dataNascimento = document.getElementById('dia').value;
 
-  axios.post('http://localhost:4000/cadastro', {
-    nome,
-    sobrenome,
-    email,
-    endereco,
-    telefone,
-    senha,
-    confirmarSenha,
-    dataNascimento,
-  })
-    .then(function (response) {
-      console.log(response);
-      window.location.assign("/html/login.html");
-      alert('Cadastro realizado com sucesso!');
+  console.log(email);
+  if (email.trim() == '' || senha.trim() == '' || confirmarSenha.trim() == '') {
+    alert('Preencha oas campos obrigatórios!')
+    return
+  } else {
+    axios.post('http://localhost:4000/cadastro', {
+      nome,
+      sobrenome,
+      email,
+      endereco,
+      telefone,
+      senha,
+      confirmarSenha,
+      dataNascimento,
     })
-    .catch(function (error) {
-      console.log(error);
-      alert(error.response.data.message);
-    });
+      .then(function (response) {
+        console.log(response);
+        window.location.assign("/html/login.html");
+        alert('Cadastro realizado com sucesso!');
+      })
+      .catch(function (error) {
+        console.log(error);
+        alert(error.response.data.message);
+      });
+  }
+
+
 }
