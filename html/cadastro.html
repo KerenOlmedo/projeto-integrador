@@ -7,6 +7,8 @@
     <title>Negócio Local</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/cadastro.css'>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/cadastro.js"></script>
     <script src='main.js'></script>
 </head>
 
@@ -24,7 +26,7 @@
     </div>
 
     <div class="flex-formulario">
-        <form id="cadastroForm">
+        <div id="cadastroForm">
             <div id="conteiner-nome-sobrenome">
                 <div>
                     <label for="nome">Nome*</label><br>
@@ -53,7 +55,7 @@
             <label for="dia">Data de Nascimento</label>
             <input type="date" id="dia" name="dia" />
             
-            <input type="submit" value="Criar cadastro">
+            <input type="submit" onclick="cadastrar()" value="Criar cadastro">
     </div>
 
     <div class="flex-fotoperfil">
@@ -64,7 +66,7 @@
     
     </main>
 
-    </form>
+</div>
 
 </body>
 

@@ -1,43 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Negócio Local</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/login.css'>
-    
-    <script src='main.js'></script>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/login.css"
+    />
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/login.js"></script>
+  </head>
+  <body>
     <header>
-        <h1>Negócio Local</h1> <img id="logo" src="../imagens/logo.png"/>
+      <h1>Negócio Local</h1>
+      <img id="logo" src="../imagens/logo.png" />
     </header>
 
     <main>
-        <h2>Login</h2>
-        <form>
-            <label for="email" >E-mail:</label>
-            
-            <input type="email" id="email" />
+      <h2>Login</h2>
+      <div>
+        <label for="email">E-mail:</label>
 
-            <label for="senha" >Senha:</label>
+        <input type="email" value="teste@teste" id="email" />
 
-            <input type="password" id="senha" />
-            
-            <button type="submit" class="btnentrar">Entrar</button>
+        <label for="senha">Senha:</label>
 
-        </form>
+        <input type="password" value="123456" id="senha" />
 
-        <p class="btnesqueceu" ><a href="#" id="btnesqueceu">Esqueceu sua senha?</a></p>
-      
-        <div>
-            <h4>Primeira vez aqui?</h4>
-            <p><a class="link" href="/html/cadastro.html">Criar conta pessoa fisica</a></p>
-            <p><a class="link" href="/html/cadastro.html">Criar conta empresa</a></p>
-        </div>
+        <button onclick="login()" class="btnentrar">Entrar</button>
+      </div>
 
+      <p class="btnesqueceu">
+        <a href="#" id="btnesqueceu">Esqueceu sua senha?</a>
+      </p>
+
+      <div>
+        <h4>Primeira vez aqui?</h4>
+        <p>
+          <a class="link" href="/html/cadastro.html"
+            >Criar conta pessoa fisica</a
+          >
+        </p>
+        <p>
+          <a class="link" href="/html/cadastro.html">Criar conta empresa</a>
+        </p>
+      </div>
     </main>
-
-</body>
+  </body>
 </html>
