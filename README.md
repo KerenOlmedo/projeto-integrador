@@ -32,6 +32,12 @@ Node.js: Certifique-se de ter o Node.js instalado no seu sistema. Você pode bai
 Docker e Docker Compose: Instale o Docker e o Docker Compose no seu sistema. Você pode baixá-los em https://www.docker.com/.
 
 - Clone o projeto do GitHub ou copie os arquivos do seu projeto para o seu ambiente local.
+- Navegue até o local da pasta "api".
+
+```
+cd api
+```
+
 - Inicie o Contêiner PostgreSQL:
   No terminal, navegue até o diretório onde você criou o arquivo docker-compose.yml e execute:
 
