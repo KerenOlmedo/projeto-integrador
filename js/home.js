@@ -68,4 +68,11 @@ function home() {
 }
 
 
-document.addEventListener("DOMContentLoaded", home);
+document.addEventListener("DOMContentLoaded", function() {
+  function redirectToLogin() {
+      window.location.href = "../html/login.html";
+  }
+
+  document.querySelector('nav.menu-usuario a[href="#"]').addEventListener('click', redirectToLogin);
+  document.querySelector('nav.menu-usuario a[href="#"]').nextElementSibling.addEventListener('click', redirectToCadastro);
+});
