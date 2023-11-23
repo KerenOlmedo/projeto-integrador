@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7ec; 
+    color: #333;
+}
+
+header {
+    background-color: #4caf50; 
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.destaque {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.usuario-section {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.login-section,
+.cadastro-section {
+    margin-top: 2em;
+}
+
+.login-section div,
+.cadastro-section div {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.btnentrar {
+    background-color: #4caf50; 
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.btnentrar:hover {
+    background-color: #45a049; 
+}
+
+.btnesqueceu {
+    text-align: right;
+    margin-top: 1em;
+}
+
+.link {
+    color: #4caf50; 
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #4caf50; 
+    color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+.barra-navegacao {
+    background-color: #4caf50;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesquisa-ofertas {
+    display: flex;
+}
+
+.pesquisa-ofertas input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.pesquisa-ofertas button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.menu-usuario {
+    text-align: center;
+}
+
+.menu-usuario ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-usuario li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-usuario a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-usuario a:hover {
+    background-color: #555;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.destaque {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.usuario-section {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #4caf50;
+    color: #fff;
+}
+#usuario {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#ofertas-section {
+    width: 70%; 
+}
+
+#ofertas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.oferta {
+    width: 30%; 
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px; 
+}
+
+.oferta img {
+    max-width: 100%;
+    height: auto;
+}
+
+.oferta h3, .oferta p {
+    margin: 10px 0;
+}

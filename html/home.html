@@ -1,16 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Negócio Local - Página Inicial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/home.css"> 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="../js/home.js"></script>
+    <script src="../js/home.js"></script> 
+   
+</head> 
+
+<body>
+
+    <header>
+        <h1>Negócio Local</h1>
+        <img id="logo" src="../imagens/logo.png" alt="Logo da empresa"/>
+    </header>
+
+    <div class="barra-navegacao">
+        <div class="pesquisa-ofertas">
+            <input type="text" placeholder="Buscar ofertas...">
+            <button type="button">Buscar</button>
+        </div>
+
+        <nav class="menu-usuario">
+            <ul>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Historico</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+      <section class="destaque">
+          <h2>Bem-vindo ao Negócio Local</h2>
+          <p>Descubra as melhores ofertas perto de você!</p>
+      </section>
+  
+      <section class="usuario-section" id="ofertas-section">
+          <h2>Ofertas</h2>
+          <div id="ofertas-container"></div>
+      </section>
+  </main>
+    <footer>
+        <p>&copy; 2023 Negócio Local. Todos os direitos reservados.</p>
+    </footer>
+
     <script>
-      home();
+        document.addEventListener("DOMContentLoaded", function() {
+            home();
+        });
     </script>
-    <title>Home</title>
-  </head>
-  <body>
-    <div id="usuario"></div>
-  </body>
+
+</body>
+
 </html>
