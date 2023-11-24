@@ -214,6 +214,7 @@ footer {
 }
 
 .bem-vindo {
+  margin-top: 0;
   font-size: x-large;
   font-weight: 800;
 }
