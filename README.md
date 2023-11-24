@@ -26,10 +26,15 @@
 
 ## 📝 Instruções de Execução
 
-#### Pré-requisitos:
+### Pré-requisitos:
 
-_Node.js:_ Certifique-se de ter o Node.js instalado no seu sistema. Você pode baixá-lo em https://nodejs.org.
-_Docker e Docker Compose:_ Instale o Docker e o Docker Compose no seu sistema. Você pode baixá-los em https://www.docker.com/.
+#### Node.js:
+
+Certifique-se de ter o Node.js instalado no seu sistema. Você pode baixá-lo em https://nodejs.org.
+
+#### Docker e Docker Compose:
+
+Instale o Docker e o Docker Compose no seu sistema. Você pode baixá-los em https://www.docker.com/.
 
 - Clone o projeto do GitHub ou copie os arquivos do projeto para o seu ambiente local.
 - Navegue até o local da pasta "api" pelo terminal ja no projeto.
