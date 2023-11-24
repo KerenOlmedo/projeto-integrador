@@ -10,7 +10,7 @@ function login() {
       console.log(response);
       localStorage.setItem("userId", response.data.id)
 
-      window.location.assign("/html/home.html")
+      window.location.assign("./home.html")
     })
     .catch(function (error) {
       console.log(error);

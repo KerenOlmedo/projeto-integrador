@@ -9,10 +9,10 @@
       rel="stylesheet"
       type="text/css"
       media="screen"
-      href="../css/home.css"
+      href="../css/inicial.css"
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="../js/home.js"></script>
+    <script src="../js/inicial.js"></script>
   </head>
 
   <body>
@@ -28,36 +28,21 @@
       </div>
 
       <nav class="menu-usuario">
-        <a href="./inicial.html">Perfil</a>
-        <a href="./inicial.html">Sair</a>
+        <ul>
+          <li><a href="#">Login</a></li>
+        </ul>
       </nav>
     </div>
 
     <main>
       <section class="destaque">
-        <div class="bem-vindo" id="usuario">teste</div>
-        <p class="bem-vindo">Bem-vindo(a) ao Negócio Local</p>
-        <p>Aqui temos as melhores ofertas perto de você!</p>
-        <div class="anuncio">
-          <img
-            style="width: 100px; height: 100px; margin: 15px"
-            src="../imagens/cafeteria.png"
-            alt=""
-          />
-          <div style="width: 60%">
-            <p class="titulo-loja">CAFÉ EXPRESSÃO</p>
-            <p>
-              Novidade especial de Halloween! Pumpkin Coffe, um café cremoso com
-              notas de abóbora especial da temporada. Experimente também o
-              Frapucchino Pumpkin.
-            </p>
-            <img
-              style="width: 100%"
-              src="../imagens/anuncio.png"
-              alt="anuncio"
-            />
-          </div>
-        </div>
+        <h2>Bem-vindo ao Negócio Local</h2>
+        <p>Descubra as melhores ofertas perto de você!</p>
+      </section>
+
+      <section class="usuario-section" id="ofertas-section">
+        <h2>Ofertas</h2>
+        <div id="ofertas-container"></div>
       </section>
     </main>
     <footer>
@@ -66,7 +51,7 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        home();
+        inicial();
       });
     </script>
   </body>

@@ -17,12 +17,10 @@ app.use(cors({
 
   try {
     const resultado = await database.sync();
-    console.log('mensagem que deu certo!!!');
   } catch (error) {
     console.log(error);
   }
 })();
-
 
 app.get('/user/:id', async (req, res) => {
   const { id } = req.params

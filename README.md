@@ -62,7 +62,7 @@ node index.js
 Isso iniciará o servidor Express e tentará conectar-se ao banco de dados PostgreSQL.
 
 - Verifique se o Projeto está Funcionando:
-  Abra um navegador ou use uma ferramenta como Postman para fazer solicitações ao seu servidor Express em http://localhost:3000 e veja se está respondendo corretamente.
+  Abra um navegador ou use uma ferramenta como Postman para fazer solicitações ao seu servidor Express em http://localhost:4000 e veja se está respondendo corretamente.
 - Encerre o Projeto e o Contêiner:
   Quando você terminar de usar o projeto, pare o servidor Node.js pressionando Ctrl + C no terminal. Em seguida, pare o contêiner PostgreSQL com:
 

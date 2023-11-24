@@ -180,11 +180,9 @@ footer {
 #usuario {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-#ofertas-section {
-  width: 70%;
+  min-height: 100vh;
 }
 
 #ofertas-container {
@@ -199,23 +197,6 @@ footer {
   box-sizing: border-box;
   text-align: center;
   padding: 20px;
-}
-
-.anuncio {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-}
-
-.titulo-loja {
-  width: 34%;
-  color: orange;
-  font-weight: 800;
-}
-
-.bem-vindo {
-  font-size: x-large;
-  font-weight: 800;
 }
 
 .oferta img {
