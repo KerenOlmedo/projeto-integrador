@@ -1,5 +1,5 @@
 <h1 align="center"> Projeto Integrador parte II </h1>
-<h3 align="center"> POC baseada em uma jornada do projeto</h3>
+<h3 align="center"> POC baseada na jornada do projeto</h3>
 
 ## 👥 Integrantes do grupo
 
