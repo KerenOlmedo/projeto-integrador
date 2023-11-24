@@ -25,7 +25,7 @@ function cadastrar() {
     })
       .then(function (response) {
         console.log(response);
-        window.location.assign("/html/login.html");
+        window.location.assign("../html/login.html");
         alert('Cadastro realizado com sucesso!');
       })
       .catch(function (error) {
