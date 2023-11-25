@@ -84,4 +84,7 @@ docker-compose down
 
 Isso encerrará o contêiner, mas os dados do banco de dados PostgreSQL serão preservados no volume criado.
 
-<br>
+## 📌 Link com o video
+
+- https://www.loom.com/share/819c2246107e4017b6bd84cce6b87bd4?sid=e0cb012d-1da1-40cf-9738-f10b29ef0e08
+  <br>

@@ -1,109 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
-
-body{
-    background-color: #EBEBEB;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #3E3E3E;
+body {
+  background-color: #ebebeb;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3e3e3e;
 }
 
 a {
-    color: #568A2F;
-    text-decoration: underline;
+  color: #568a2f;
+  text-decoration: underline;
 }
 
-header{
-    width: 1000px;
-    margin: auto;
-    display: flex;
-    justify-content: right;
-    align-items: center;
+header {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 
-main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: auto;
-    margin-bottom: 100px;
-    background-color: white;
-    width: 1000px;
-    padding: 50px;
-    padding-top: 1px;
-    padding-bottom: 60px;
-    border-radius: 5px;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 100px;
+  background-color: white;
+  width: 1000px;
+  padding: 50px;
+  padding-top: 1px;
+  padding-bottom: 60px;
+  border-radius: 5px;
 }
 
 h1 {
-    font-family: 'Text Me One', sans-serif;
-    color: #568A2F;
-    font-weight: normal;
-    font-size: 3.5em;
+  font-family: "Text Me One", sans-serif;
+  color: #568a2f;
+  font-weight: normal;
+  font-size: 3.5em;
 }
 
 h2 {
-    font-family: 'Text Me One', sans-serif;
-    text-align: right;
-    color: #568A2F;
-    font-weight: normal;
-    font-size: 2.5em;
-    margin-bottom: 0px;
+  font-family: "Text Me One", sans-serif;
+  text-align: right;
+  color: #568a2f;
+  font-weight: normal;
+  font-size: 2.5em;
+  margin-bottom: 0px;
 }
 
 #logo {
-    width: 115px;
-    height: 109px;
+  width: 115px;
+  height: 109px;
 }
 
 .flex-subtitulo {
-    flex-basis: 100%;
-    text-align: right;
-    margin-bottom: 40px;
+  flex-basis: 100%;
+  text-align: right;
+  margin-bottom: 40px;
 }
 
 .flex-formulario {
-    flex-basis: 50%;
+  flex-basis: 50%;
 }
 
 .flex-fotoperfil {
-    flex-basis: 40%;
-    padding-top: 100px;
-    text-align: center;
+  top: 252px;
+  position: absolute;
+  right: 647px;
+  flex-basis: 30%;
+  padding-top: 100px;
+  text-align: center;
 }
 
 /* Formulário */
 
-#conteiner-nome-sobrenome{
-    display: flex;
-    justify-content: space-between;
+#conteiner-nome-sobrenome {
+  display: flex;
+  justify-content: space-between;
 }
 
 #conteiner-nome-sobrenome div {
-    flex-basis: 45%;
+  flex-basis: 45%;
 }
 
 label {
-    margin-left:10px;
+  margin-left: 10px;
 }
 
 input {
-    width: 100%;
-    padding: 5px;
-    margin: 10px 0px 20px 10px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0px 20px 10px;
 }
 
-input[type=submit]{
-    background-color: #9FCD74;
-    text-transform: uppercase;
-    border: 1px #568A2F;
-    color: white;
-    padding: 10px 20px;
+input[type="submit"] {
+  background-color: #9fcd74;
+  text-transform: uppercase;
+  border: 1px #568a2f;
+  color: white;
+  padding: 10px 20px;
 }
 
-input[type=submit]{
-    background-color: #9FCD74;
-    text-transform: uppercase;
-    border: 1px #568A2F;
-    color: white;
-    padding: 10px 20px;
+input[type="submit"] {
+  background-color: #9fcd74;
+  text-transform: uppercase;
+  border: 1px #568a2f;
+  color: white;
+  padding: 10px 20px;
 }
